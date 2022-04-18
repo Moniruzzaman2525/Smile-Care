@@ -6,7 +6,7 @@ const Appointment = () => {
     // const { checkId } = useParams();
     return (
         <div className='container mx-auto w-50'>
-            <h2 className='my-5' fs-3>Fill the form below to book <span className='text-success'>appointment</span></h2>
+            <h2 className='my-5' fs-3>Fill the form below to book <span className='text-info'>appointment</span></h2>
             <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Your Full Name *</Form.Label>
@@ -28,7 +28,7 @@ const Appointment = () => {
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Control className='p-5 fs-5' type="text" placeholder="Enter Your Message" />
                 </Form.Group>
-                <Button variant="success" type="submit">
+                <Button variant="info" className='text-light' type="submit">
                     Make an Appointment
                 </Button>
             </Form>

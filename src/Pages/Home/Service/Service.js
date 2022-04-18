@@ -15,7 +15,7 @@ const Service = ({ service }) => {
                     <h5 className="card-title">{name}</h5>
                     <p>{price}</p>
                     <p className="card-text">{description}</p>
-                    <CustomLink to='/appointment' className="btn btn-success">Appointment</CustomLink>
+                    <CustomLink to='/appointment' className="btn btn-info text-light">Appointment</CustomLink>
                 </div>
             </div>
         </div>

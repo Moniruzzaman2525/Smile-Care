@@ -20,7 +20,7 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <div style={{ bottom: '100px', right: '500px' }} className='position-absolute text-success'>
+                    <div style={{ bottom: '100px', right: '500px', color: '#333f48' }} className='position-absolute'>
                         <h3 className='fs-4'>WELCOME</h3>
                         <h1 className='fs-2'>THE BEST IN MODERN DENTISTRY.</h1>
                     </div>
@@ -34,7 +34,7 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <div style={{ bottom: '100px' }} className='position-absolute text-success'>
+                    <div style={{ bottom: '100px', color: '#333f48' }} className='position-absolute'>
                         <h3 className='fs-6'>ONLY ONE KIND OF TREATMENT</h3>
                         <h2 className='fs-2'>YOUR NEW SMILE</h2>
                     </div>
@@ -48,7 +48,7 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <div style={{ bottom: '100px' }} className='position-absolute text-success'>
+                    <div style={{ bottom: '100px', color: '#333f48' }} className='position-absolute'>
                         <h3 className='fs-4'>WELCOME</h3>
                         <h2 className='fs-2'>CARING FOR YOU & YOU SMILE.</h2>
                     </div>
