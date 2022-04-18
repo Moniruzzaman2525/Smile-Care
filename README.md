@@ -1,6 +1,6 @@
 # SMILE CARE
 
-This project was hosted as a project name [ASSIGNMENT-10](https://github.com/facebook/create-react-app).
+This project was hosted as a project name [ASSIGNMENT-10](https://assigment-10-7d6db.web.app/).
 
 ## Project Details
  * My web site has a header page and a banner page. There is a banner page with the carousel inside.
