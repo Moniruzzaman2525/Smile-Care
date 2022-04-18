@@ -104,13 +104,13 @@ const Login = () => {
     }
     return (
         <div className='form-container'>
-            <div>LOGIN</div>
+            <div className='text-center text-info fs-4'>LOGIN</div>
             <form className='login-form' onSubmit={handleSubmit}>
                 <input type="text" placeholder='email' id="" onChange={handleEmailChange} />
                 {errors.email && <p>{errors.email}</p>}
                 <input type="password" placeholder='password' id="" onChange={handlePassChange} />
                 {errors.password && <p>{errors.password}</p>}
-                <button className='login-btn'>Login</button>
+                <button className='login-btn btn-info text-light fs-5'>Login</button>
                 {/* {signInError && <p>{signInError.message}</p>} */}
                 <ToastContainer></ToastContainer>
                 <p>Forget Password <button type="button" class="btn btn-link" onClick={resetPassword}>Rest Password</button></p>

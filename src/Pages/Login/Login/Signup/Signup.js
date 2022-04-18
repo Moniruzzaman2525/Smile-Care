@@ -93,7 +93,7 @@ const Signup = () => {
     return (
         <div>
             <div className='form-container'>
-                <div>SIGN UP</div>
+                <div className='text-center fs-4 text-info'>SIGN UP</div>
                 <form className='login-form' onSubmit={handleSubmit}>
                     <input type="text" name="name" placeholder='Your Name' id="" />
                     <input type="text" placeholder='email' id="" onChange={handleEmailChange} />
@@ -102,7 +102,7 @@ const Signup = () => {
                     {errors.password && <p>{errors.password}</p>}
 
                     {/* <input type="submit" value="Register" /> */}
-                    <button className='login-btn'>Sing up</button>
+                    <button className='login-btn btn-info text-light fs-5 mb-2'>Sing up</button>
                     {/* {signInError && <p>{signInError.message}</p>} */}
                     <ToastContainer></ToastContainer>
                     <p>Don't have an account? <Link to="/login">Login</Link></p>

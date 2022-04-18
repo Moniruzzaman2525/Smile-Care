@@ -50,8 +50,8 @@ const SocialLogin = () => {
 
             </div>
             <div>
-                <button className='btn btn-primary login-btn' onClick={() => signInWithGoogle()}>Google Sign In</button>
-                <button className='btn btn-primary login-btn' onClick={() => signInWithGithub()}>Github Sign In</button>
+                <button className='btn btn-info login-btn text-light fs-5 fw-bold' onClick={() => signInWithGoogle()}>Google Sign In</button>
+                <button className='btn btn-info login-btn text-light fs-5 fw-bold' onClick={() => signInWithGithub()}>Github Sign In</button>
             </div>
             <ToastContainer></ToastContainer>
         </div>
