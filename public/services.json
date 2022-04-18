@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "price": "$50.87",
+        "img": "https://i.ibb.co/HrHbD5h/1-1.png",
+        "name": "Teeth Whitening",
+        "description": "Bleaching methods use carbamide peroxide which reacts with water to form hydrogen peroxide."
+    },
+    {
+        "id": "2",
+        "price": "$45.71",
+        "img": "https://i.ibb.co/vQsXf7g/2-2.png",
+        "name": "Cosmetic Dentistry",
+        "description": "There are only 2 dental specialties that only focus on dental esthetics: Prosthodontics and Orthodontics"
+    },
+    {
+        "id": "3",
+        "price": "$30.97",
+        "img": "https://i.ibb.co/FDZx0Jd/3-2.png",
+        "name": "Dental Implants",
+        "description": "The implant fixture is first placed, so that it is likely to osseointegrate, then a dental prosthetic is added."
+    },
+    {
+        "id": "4",
+        "price": "$35.84",
+        "img": "https://i.ibb.co/P5fWZbR/4-2.png",
+        "name": "Braces",
+        "description": "According to scholars and historians, braces date back to ancient times. Around 400-300 BC."
+    },
+    {
+        "id": "5",
+        "price": "$40.56",
+        "img": "https://i.ibb.co/wwQ8qrW/5-2.png",
+        "name": "Prevention",
+        "description": "The most important part of preventive dentistry is to brush teeth with fluoride toothpaste approved by ADA."
+    },
+    {
+        "id": "6",
+        "price": "$50.56",
+        "img": "https://i.ibb.co/bNqCDKc/6-2.png",
+        "name": "Crowns and Bridges",
+        "description": "Types of bridges may vary, depending upon how they are fabricated and the way they anchor to the adjacent teeth."
+    }
+]

@@ -1,0 +1,11 @@
+.hover-effect:hover {
+    background-color: rgb(190, 186, 186);
+}
+
+.hover-effect {
+    border-radius: 27px;
+    background: #e0e0e0;
+    box-shadow: 19px 19px 38px #8f8f8f,
+        -19px -19px 38px #ffffff;
+    box-sizing: border-box;
+}
