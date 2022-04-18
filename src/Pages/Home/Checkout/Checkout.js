@@ -1,11 +1,10 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
 
 const Checkout = () => {
 
     return (
-        <div>
-            <h2>hello</h2>
+        <div style={{ height: '500px' }} className='d-flex justify-content-center align-items-center'>
+            <h2 className='text-info'>Thanks for Booking</h2>
         </div>
     );
 };

@@ -39,7 +39,7 @@ const Header = () => {
                     </Nav>
                     {user ? <h4 className='mt-2'>{user?.displayName}</h4> : "USER"}
                     {user ? <button type="button" className="btn btn-light" onClick={logout}>Sign Out</button> :
-                        <Link to="/login" className="btn btn-light">log in</Link>}
+                        <Link to="/login" className="btn btn-light">Sign in</Link>}
                 </Navbar.Collapse>
             </Container>
         </Navbar>

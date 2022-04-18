@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 // import { useParams } from 'react-router-dom';
 
 const Appointment = () => {
@@ -28,9 +29,9 @@ const Appointment = () => {
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Control className='p-5 fs-5' type="text" placeholder="Enter Your Message" />
                 </Form.Group>
-                <Button variant="info" className='text-light' type="submit">
+                <Link to="/checkout" variant="info" className='btn btn-info text-light' type="submit">
                     Make an Appointment
-                </Button>
+                </Link>
             </Form>
         </div>
     );

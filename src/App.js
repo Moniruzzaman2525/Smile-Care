@@ -31,6 +31,7 @@ function App() {
         <Route path='login' element={<Login></Login>}></Route>
         <Route path='signup' element={<Signup></Signup>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        <Route path='checkout' element={<Checkout></Checkout>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
 
