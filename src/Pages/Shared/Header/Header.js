@@ -17,7 +17,7 @@ const Header = () => {
         <Navbar sticky='top' bg="light" expand="lg">
             <Container>
                 <Navbar.Brand to="#home">
-                    <img src={logo} alt="" />
+                    <Link to='/'><img src={logo} alt="" /></Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
